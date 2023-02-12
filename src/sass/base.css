@@ -18,7 +18,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   font-size: 1.7rem;
-  background-color: #eaecf7;
+  background-color: #1e293b;
 }
 
 .widget {
@@ -73,11 +73,11 @@ body {
   width: 4.8rem;
   height: 4.8rem;
   margin-top: -1rem;
-  fill: rgb(191, 197, 235);
+  fill: rgb(134, 147, 231);
 }
 
 .main-container {
-  background-color: rgb(191, 197, 235);
+  background-color: rgb(134, 147, 231);
   border-radius: 0.5rem;
   max-width: 52rem;
   margin: 3rem auto 0 auto;
