@@ -73,16 +73,16 @@ body {
   width: 4.8rem;
   height: 4.8rem;
   margin-top: -1rem;
-  fill: rgb(134, 147, 231);
+  fill: rgb(214, 110, 110);
 }
 
 .main-container {
-  background-color: rgb(134, 147, 231);
+  background-color: rgb(214, 110, 110);
   border-radius: 0.5rem;
   max-width: 52rem;
-  margin: 3rem auto 0 auto;
+  margin: 0rem auto 0 auto;
   padding: 3rem;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 @media only screen and (max-width: 37.44em) {
   .main-container {

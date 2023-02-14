@@ -7,7 +7,7 @@ $color-white: #fff;
 $color-grey-light: #777;
 $color-grey-dark: #2b2b2b;
 $color-primary: rgb(8, 21, 89);
-$color-secondary: rgb(134, 147, 231);
+$color-secondary: rgb(214, 110, 110);
 
 $border-radius-default: 0.5rem;
 
@@ -91,9 +91,9 @@ body {
   background-color: $color-secondary;
   border-radius: $border-radius-default;
   max-width: 52rem;
-  margin: 3rem auto 0 auto;
+  margin: 0rem auto 0 auto;
   padding: 3rem;
-  min-height: 80vh;
+  min-height: 100vh;
   @media only screen and (max-width: $bp-small) {
     padding-right: 1rem;
     padding-left: 1rem;
