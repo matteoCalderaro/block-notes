@@ -174,8 +174,8 @@ const NoNotes = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           data-name="Layer 1"
-          width="485.83373"
-          height="483.5"
+          // width="485.83373"
+          // height="483.5"
           viewBox="0 0 485.83373 483.5"
         >
           <polygon
