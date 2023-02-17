@@ -9,6 +9,7 @@ moment.locale('it');
 const Widget = () => {
   const { value, weather } = useContext(NotesContext);
   const currentWeatherCode = weather.current_weather?.weathercode;
+  const time = new Date().getHours();
 
   return (
     <div className="widget">
@@ -20,7 +21,9 @@ const Widget = () => {
       </div>
 
       <svg className="weather-icon">
-        {currentWeatherCode > 4 ? (
+        {time > 20 || time < 8 ? (
+          <use href={`${icons}#icon-night`} />
+        ) : currentWeatherCode > 4 ? (
           <use href={`${icons}#icon-rainy`} />
         ) : (
           <use href={`${icons}#icon-sunny`} />
