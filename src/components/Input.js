@@ -13,7 +13,7 @@ const Input = () => {
           value={noteTitle}
           onChange={({ target }) => setNoteTitle(target.value)}
           className="textarea__input"
-          placeholder="Scrivi un'attività da svolgere ...."
+          placeholder="Scrivi una nota ...."
         />
       </form>
       <button className="btn btn--add ">
