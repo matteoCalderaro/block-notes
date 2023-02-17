@@ -31,13 +31,13 @@ function App() {
 
   const [value, setValue] = useState(new Date());
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => setValue(new Date()), 1000);
+  useEffect(() => {
+    const interval = setInterval(() => setValue(new Date()), 1000);
 
-  //   return () => {
-  //     clearInterval(interval);
-  //   };
-  // }, []);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   const noteFiltered = () => {
     if (filter === 'all') {
