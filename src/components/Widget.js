@@ -8,7 +8,7 @@ moment.locale('it');
 
 const Widget = () => {
   const { value, weather } = useContext(NotesContext);
-  const currentWeatherCode = weather.current_weather?.weathercode;
+  const currentWeatherCode = weather?.current_weather?.weathercode;
   const time = new Date().getHours();
 
   return (
